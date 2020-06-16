@@ -12,4 +12,9 @@ func main() {
 	// but concurrency not guaranteed your code will run parallelism bcs the primary reason
 	// is you have to run in multiple CPU cores (brain of your computer, core i5 usually has 4 CPU's cores)
 	// ROB PIKE CONCURRENCY IS NOT PARALLELISM : ON YOUTUBE
+
+	// wachout about race condition
+	// race condition in conccurent programming is when you have shared variable between two goroutine
+	// and screw up by read or write and making variable not consistent
+	// CHECK ARDANLAB DATA RACE
 }
